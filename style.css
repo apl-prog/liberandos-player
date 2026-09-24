@@ -1,7 +1,30 @@
 :root{color-scheme:dark;--ink:#050605;--dim:#788074;--orange:#d69563;--green:#aac5a0;font-family:'Courier New',monospace;background:var(--ink);color:var(--dim)}
 *{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 50% 46%,#12170e70,transparent 65%),var(--ink)}main{min-height:100svh;padding:35px 4.8vw 25px;display:flex;flex-direction:column}header,footer,.coordinates{display:flex;justify-content:space-between;gap:20px;font-size:10px;letter-spacing:.15em}header{color:#b1b6a7}header>.brand{letter-spacing:.35em}footer{align-items:center;min-height:35px;font-size:9px}.instrument{margin:auto 0;width:100%;padding:75px 0 65px}.coordinates{padding:0 1%;color:#676e60;font-size:9px}.coordinates span:last-child{color:#8c9c79}.glyphs{display:flex;align-items:center;margin:50px 0 42px;width:100%}.glyph{position:relative;flex:var(--width) 1 0;min-width:0;padding:0;border:0;background:transparent;cursor:pointer;touch-action:manipulation;-webkit-tap-highlight-color:transparent}.glyph svg{display:block;width:100%;height:auto;overflow:hidden;opacity:.35;filter:saturate(.5);transform:translateY(var(--drift));transition:opacity .6s,filter .6s,transform .6s;animation:drift 5.7s ease-in-out infinite;animation-delay:var(--delay)}.glyph[aria-pressed=true] svg{opacity:1;filter:brightness(1.3) saturate(1.2) drop-shadow(0 0 4px #bb6b3040);transform:translateY(0);animation:none}.glyph:hover svg{opacity:.65}.glyph[aria-pressed=true]:hover svg{opacity:1}.glyph:focus-visible{outline:1px solid var(--orange);outline-offset:8px;border-radius:3px}.glyph .channel{position:absolute;bottom:-20px;left:50%;transform:translateX(-50%);font-size:8px;letter-spacing:.1em;color:#788074;opacity:0;transition:opacity .3s}.glyph:focus-visible .channel,.glyph:hover .channel{opacity:1}.readout{text-align:center}#status{font-size:10px;letter-spacing:.24em;min-height:14px;margin:0 0 18px}#indicators{display:flex;justify-content:center;gap:9px}#indicators i{width:3px;height:3px;background:#353c30;transition:background .4s,box-shadow .4s}#indicators i.on{background:var(--orange);box-shadow:0 0 6px #d6956360}body.complete #status{color:var(--green)}body.complete #indicators i{background:var(--green)}button{font:inherit;color:inherit}#transport,#retry{background:none;border:1px solid #414939;padding:10px 14px;font-size:9px;letter-spacing:.15em;cursor:pointer}#retry{margin:25px auto 0}button[hidden]{display:none}#transport:hover,#retry:hover{color:var(--orange);border-color:var(--orange)}@keyframes drift{0%,100%{opacity:.34;transform:translateY(var(--drift))}48%{opacity:.25;transform:translateY(calc(var(--drift) * -1))}50%{opacity:.38}52%{opacity:.29}}
-@media(max-width:700px){main{padding:25px 7vw 18px}header{font-size:9px}.archive{display:none}.instrument{padding:50px 0 38px}.coordinates{font-size:8px;letter-spacing:.08em}.glyphs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px 15px;margin:32px auto 50px;max-width:380px;padding:0 10px}.glyph{width:100%;height:100px}.glyph svg{height:100%;width:100%}.glyph:nth-child(3n+2){top:17px}.glyph:nth-child(3n){top:34px}.glyph .channel{bottom:-5px}.readout{margin-top:18px}#status{font-size:9px;letter-spacing:.16em}footer{font-size:8px;letter-spacing:.06em}footer>span:last-child{display:none}#transport{padding:9px 12px}}
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important}.glyph svg{transform:none!important}}
 
 /* Quiet outbound links keep the player running in its original tab. */
 a{color:inherit;text-decoration:none}a:hover{color:var(--orange)}a:focus-visible{outline:1px solid var(--orange);outline-offset:4px}header{align-items:center}.brand{display:inline-flex;align-items:center;min-height:44px}footer nav{display:flex;align-items:center;gap:24px}footer nav a{display:inline-flex;align-items:center;min-height:44px;white-space:nowrap}@media(max-width:700px){footer{flex-wrap:wrap;gap:8px 16px}footer nav{flex-basis:100%;justify-content:space-between;gap:16px}}
+
+/* The mobile reminder is a modal, so the player cannot be tapped behind it. */
+#sound-intro{border:0;padding:0;width:100%;max-width:none;height:100%;max-height:none;margin:0;background:var(--ink);color:var(--dim)}
+#sound-intro::backdrop{background:var(--ink)}
+.sound-prompt{min-height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:40px 24px}
+.sound-brand{font-size:10px;letter-spacing:.35em;color:#a7ad9d;margin:0 0 70px}
+#sound-title{font-size:24px;font-weight:400;letter-spacing:.22em;color:var(--orange);margin:0 0 22px}
+#sound-description{font-size:13px;line-height:1.9;color:#a5ac9b;margin:0 0 38px}
+#enter-signal{min-height:48px;padding:14px 24px;border:1px solid #657154;background:transparent;color:var(--green);font-size:11px;letter-spacing:.15em;cursor:pointer}
+#enter-signal:focus-visible{outline:1px solid var(--orange);outline-offset:5px}
+@media(max-width:700px), (pointer:coarse) and (max-height:500px){
+  main{padding:16px 7vw max(16px,env(safe-area-inset-bottom));min-height:100svh}
+  header{font-size:9px}.archive,.coordinates{display:none}
+  .instrument{padding:22px 0 18px;margin:auto 0 0}
+  .glyphs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px 12px;margin:0 auto 32px;padding:0;max-width:350px}
+  .glyph{width:100%;height:clamp(84px,25vw,110px);display:flex;align-items:center;justify-content:center}
+  .glyph svg{width:100%;height:100%;mix-blend-mode:screen;transform:none;animation:none;opacity:.42;filter:saturate(.65)}
+  .glyph[aria-pressed=true] svg{filter:brightness(1.35) saturate(1.2);transform:none;opacity:1}
+  .glyph .channel{display:none}
+  #status{font-size:9px;letter-spacing:.14em;margin-bottom:14px}
+  footer{display:grid;grid-template-columns:1fr;gap:0;width:100%;margin:0 auto auto;font-size:9px;letter-spacing:.06em}
+  #state{display:none}#transport{justify-self:center;min-height:44px;padding:10px 20px}
+  footer nav{display:flex;justify-content:space-between;gap:16px;margin-top:26px}
+}

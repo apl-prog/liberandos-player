@@ -37,7 +37,7 @@ LIBERANDOS has ten letters and the supplied set has nine stems. This prototype g
 | O | harmonies.mp3 |
 | S | Lead Vox.mp3 |
 
-The logo remains the supplied image, clipped into nine regions without redrawing the glyphs. Desktop assembles the horizontal wordmark; mobile uses a staggered three-row arrangement. Reduced-motion preferences disable flicker/drift.
+The logo remains the supplied image, clipped into nine regions without redrawing the glyphs. Desktop assembles the horizontal wordmark; mobile uses an aligned 3 × 3 grid with balanced spacing and no visible image backgrounds. A mobile-only sound reminder appears on entry; tapping ENTER SIGNAL unlocks audio and loads the stems, initially muted. Reduced-motion preferences disable flicker/drift.
 
 ## Audio inspection and looping
 

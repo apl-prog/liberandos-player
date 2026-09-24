@@ -11,6 +11,14 @@
   <script type="module" src="player.js"></script>
 </head>
 <body>
+  <dialog id="sound-intro" aria-labelledby="sound-title" aria-describedby="sound-description">
+    <div class="sound-prompt">
+      <p class="sound-brand">LIBERANDOS</p>
+      <h1 id="sound-title">SOUND ON</h1>
+      <p id="sound-description">Turn off silent mode<br>and turn up your volume.</p>
+      <button id="enter-signal" type="button" autofocus>ENTER SIGNAL <span aria-hidden="true">↗</span></button>
+    </div>
+  </dialog>
   <main aria-label="Liberandos interactive stem player">
     <header><a class="brand" href="https://liberandos.com" target="_blank" rel="noopener noreferrer">LIBERANDOS</a><span class="archive">SIGNAL ARCHIVE / 001</span></header>
     <section class="instrument" aria-label="Recover the nine channels">

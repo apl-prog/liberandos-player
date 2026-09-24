@@ -66,3 +66,22 @@ transport.addEventListener('click', async () => {
 });
 // Read-only diagnostics for local verification; no user data is collected.
 window.playerDiagnostics = () => ({ready:engine.ready, channels:selected.slice(), contextState:engine.context?.state, loopDuration:engine.loopDuration, decodedDuration:engine.decodedDuration, startTime:engine.startTime, masterGain:engine.master?.gain.value, sourceCount:engine.sources.length});
+
+// A reminder, not a silent-switch detector. A real tap unlocks mobile audio.
+const soundIntro = document.querySelector('#sound-intro');
+const mobileScreen = matchMedia('(max-width: 700px), (pointer: coarse) and (max-height: 500px)');
+let enteredSignal = false;
+function updateSoundIntro() {
+  if (mobileScreen.matches && !enteredSignal) {
+    if (!soundIntro.open) soundIntro.showModal();
+  } else if (soundIntro.open) soundIntro.close();
+}
+soundIntro.addEventListener('cancel', event => event.preventDefault());
+document.querySelector('#enter-signal').addEventListener('click', () => {
+  enteredSignal = true;
+  soundIntro.close();
+  start();
+  buttons[0].focus({preventScroll:true});
+});
+mobileScreen.addEventListener('change', updateSoundIntro);
+updateSoundIntro();
