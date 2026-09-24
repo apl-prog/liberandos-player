@@ -1,0 +1,47 @@
+[
+  {
+    "file": "banjo fiddle.mp3",
+    "bytes": 1062208,
+    "inspection": "File:           liberandos-player/audio/banjo fiddle.mp3\nFile type ID:   MPG3\nNum Tracks:     1\n----\nData format:     2 ch,  48000 Hz, .mp3 (0x00000000) 0 bits/channel, 0 bytes/packet, 1152 frames/packet, 0 bytes/frame\n                no channel layout.\nestimated duration: 44.088000 sec\naudio bytes: 1058112\naudio packets: 1837\nbit rate: 192000 bits per second\npacket size upper bound: 968\nmaximum packet size: 576\naudio data file offset: 4096\noptimized\naudio 2112925 valid frames + 528 priming + 2771 remainder = 2116224\nLoudness Info:\n    sound check info                 :\n        sc ave perceived power coeff     : \"106 30 \"\n        sc max perceived power coeff     : \"1750 343 \"\n        sc peak amplitude msec           : \"41976 41976 \"\n        sc max perceived power msec      : \"41976 43008 \"\n        sc peak amplitude                : \"15415 6737 \"\n\n\nsound check volume normalization gain: 6.00 dB\n----\n"
+  },
+  {
+    "file": "Lead Vox.mp3",
+    "bytes": 1062208,
+    "inspection": "File:           liberandos-player/audio/Lead Vox.mp3\nFile type ID:   MPG3\nNum Tracks:     1\n----\nData format:     2 ch,  48000 Hz, .mp3 (0x00000000) 0 bits/channel, 0 bytes/packet, 1152 frames/packet, 0 bytes/frame\n                no channel layout.\nestimated duration: 44.088000 sec\naudio bytes: 1058112\naudio packets: 1837\nbit rate: 192000 bits per second\npacket size upper bound: 968\nmaximum packet size: 576\naudio data file offset: 4096\noptimized\naudio 2112925 valid frames + 528 priming + 2771 remainder = 2116224\nLoudness Info:\n    sound check info                 :\n        sc ave perceived power coeff     : \"481 539 \"\n        sc max perceived power coeff     : \"2484 3009 \"\n        sc peak amplitude msec           : \"38784 37920 \"\n        sc max perceived power msec      : \"21576 6456 \"\n        sc peak amplitude                : \"13661 13513 \"\n\n\nsound check volume normalization gain: 3.00 dB\n----\n"
+  },
+  {
+    "file": "Acoustic Guitar.mp3",
+    "bytes": 1062208,
+    "inspection": "File:           liberandos-player/audio/Acoustic Guitar.mp3\nFile type ID:   MPG3\nNum Tracks:     1\n----\nData format:     2 ch,  48000 Hz, .mp3 (0x00000000) 0 bits/channel, 0 bytes/packet, 1152 frames/packet, 0 bytes/frame\n                no channel layout.\nestimated duration: 44.088000 sec\naudio bytes: 1058112\naudio packets: 1837\nbit rate: 192000 bits per second\npacket size upper bound: 968\nmaximum packet size: 576\naudio data file offset: 4096\noptimized\naudio 2112925 valid frames + 528 priming + 2771 remainder = 2116224\nLoudness Info:\n    sound check info                 :\n        sc ave perceived power coeff     : \"47 16 \"\n        sc max perceived power coeff     : \"597 99 \"\n        sc peak amplitude msec           : \"17688 29304 \"\n        sc max perceived power msec      : \"17184 432 \"\n        sc peak amplitude                : \"9745 4677 \"\n\n\nsound check volume normalization gain: 10.00 dB\n----\n"
+  },
+  {
+    "file": "harmonies.mp3",
+    "bytes": 1062208,
+    "inspection": "File:           liberandos-player/audio/harmonies.mp3\nFile type ID:   MPG3\nNum Tracks:     1\n----\nData format:     2 ch,  48000 Hz, .mp3 (0x00000000) 0 bits/channel, 0 bytes/packet, 1152 frames/packet, 0 bytes/frame\n                no channel layout.\nestimated duration: 44.088000 sec\naudio bytes: 1058112\naudio packets: 1837\nbit rate: 192000 bits per second\npacket size upper bound: 968\nmaximum packet size: 576\naudio data file offset: 4096\noptimized\naudio 2112925 valid frames + 528 priming + 2771 remainder = 2116224\nLoudness Info:\n    sound check info                 :\n        sc ave perceived power coeff     : \"191 171 \"\n        sc max perceived power coeff     : \"2120 1964 \"\n        sc peak amplitude msec           : \"39072 39048 \"\n        sc max perceived power msec      : \"39072 2208 \"\n        sc peak amplitude                : \"13468 12573 \"\n\n\nsound check volume normalization gain: 7.00 dB\n----\n"
+  },
+  {
+    "file": "bass grunge.mp3",
+    "bytes": 1062208,
+    "inspection": "File:           liberandos-player/audio/bass grunge.mp3\nFile type ID:   MPG3\nNum Tracks:     1\n----\nData format:     2 ch,  48000 Hz, .mp3 (0x00000000) 0 bits/channel, 0 bytes/packet, 1152 frames/packet, 0 bytes/frame\n                no channel layout.\nestimated duration: 44.088000 sec\naudio bytes: 1058112\naudio packets: 1837\nbit rate: 192000 bits per second\npacket size upper bound: 968\nmaximum packet size: 576\naudio data file offset: 4096\noptimized\naudio 2112925 valid frames + 528 priming + 2771 remainder = 2116224\nLoudness Info:\n    sound check info                 :\n        sc ave perceived power coeff     : \"48 51 \"\n        sc max perceived power coeff     : \"748 865 \"\n        sc peak amplitude msec           : \"28824 28824 \"\n        sc max perceived power msec      : \"26784 30960 \"\n        sc peak amplitude                : \"18465 18886 \"\n\n\nsound check volume normalization gain: 4.00 dB\n----\n"
+  },
+  {
+    "file": "drums1 and organ.mp3",
+    "bytes": 1062208,
+    "inspection": "File:           liberandos-player/audio/drums1 and organ.mp3\nFile type ID:   MPG3\nNum Tracks:     1\n----\nData format:     2 ch,  48000 Hz, .mp3 (0x00000000) 0 bits/channel, 0 bytes/packet, 1152 frames/packet, 0 bytes/frame\n                no channel layout.\nestimated duration: 44.088000 sec\naudio bytes: 1058112\naudio packets: 1837\nbit rate: 192000 bits per second\npacket size upper bound: 968\nmaximum packet size: 576\naudio data file offset: 4096\noptimized\naudio 2112925 valid frames + 528 priming + 2771 remainder = 2116224\nLoudness Info:\n    sound check info                 :\n        sc ave perceived power coeff     : \"52 59 \"\n        sc max perceived power coeff     : \"400 730 \"\n        sc peak amplitude msec           : \"31464 33552 \"\n        sc max perceived power msec      : \"39864 29424 \"\n        sc peak amplitude                : \"6578 5313 \"\n\n\nsound check volume normalization gain: 12.00 dB\n----\n"
+  },
+  {
+    "file": "Elect Guitars.mp3",
+    "bytes": 1062208,
+    "inspection": "File:           liberandos-player/audio/Elect Guitars.mp3\nFile type ID:   MPG3\nNum Tracks:     1\n----\nData format:     2 ch,  48000 Hz, .mp3 (0x00000000) 0 bits/channel, 0 bytes/packet, 1152 frames/packet, 0 bytes/frame\n                no channel layout.\nestimated duration: 44.088000 sec\naudio bytes: 1058112\naudio packets: 1837\nbit rate: 192000 bits per second\npacket size upper bound: 968\nmaximum packet size: 576\naudio data file offset: 4096\noptimized\naudio 2112925 valid frames + 528 priming + 2771 remainder = 2116224\nLoudness Info:\n    sound check info                 :\n        sc ave perceived power coeff     : \"184 287 \"\n        sc max perceived power coeff     : \"1859 3459 \"\n        sc peak amplitude msec           : \"12120 13992 \"\n        sc max perceived power msec      : \"16992 14016 \"\n        sc peak amplitude                : \"12617 16892 \"\n\n\nsound check volume normalization gain: 5.00 dB\n----\n"
+  },
+  {
+    "file": "drums 2.mp3",
+    "bytes": 1062208,
+    "inspection": "File:           liberandos-player/audio/drums 2.mp3\nFile type ID:   MPG3\nNum Tracks:     1\n----\nData format:     2 ch,  48000 Hz, .mp3 (0x00000000) 0 bits/channel, 0 bytes/packet, 1152 frames/packet, 0 bytes/frame\n                no channel layout.\nestimated duration: 44.088000 sec\naudio bytes: 1058112\naudio packets: 1837\nbit rate: 192000 bits per second\npacket size upper bound: 968\nmaximum packet size: 576\naudio data file offset: 4096\noptimized\naudio 2112925 valid frames + 528 priming + 2771 remainder = 2116224\nLoudness Info:\n    sound check info                 :\n        sc ave perceived power coeff     : \"91 164 \"\n        sc max perceived power coeff     : \"1096 1856 \"\n        sc peak amplitude msec           : \"20136 36000 \"\n        sc max perceived power msec      : \"2016 38088 \"\n        sc peak amplitude                : \"8288 8958 \"\n\n\nsound check volume normalization gain: 8.00 dB\n----\n"
+  },
+  {
+    "file": "Conga.mp3",
+    "bytes": 1062208,
+    "inspection": "File:           liberandos-player/audio/Conga.mp3\nFile type ID:   MPG3\nNum Tracks:     1\n----\nData format:     2 ch,  48000 Hz, .mp3 (0x00000000) 0 bits/channel, 0 bytes/packet, 1152 frames/packet, 0 bytes/frame\n                no channel layout.\nestimated duration: 44.088000 sec\naudio bytes: 1058112\naudio packets: 1837\nbit rate: 192000 bits per second\npacket size upper bound: 968\nmaximum packet size: 576\naudio data file offset: 4096\noptimized\naudio 2112925 valid frames + 528 priming + 2771 remainder = 2116224\nLoudness Info:\n    sound check info                 :\n        sc ave perceived power coeff     : \"27 48 \"\n        sc max perceived power coeff     : \"315 1021 \"\n        sc peak amplitude msec           : \"6360 11568 \"\n        sc max perceived power msec      : \"27984 27984 \"\n        sc peak amplitude                : \"8190 8988 \"\n\n\nsound check volume normalization gain: 10.00 dB\n----\n"
+  }
+]

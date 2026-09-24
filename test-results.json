@@ -1,0 +1,41 @@
+{
+  "diagnostics": {
+    "ready": true,
+    "channels": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "contextState": "running",
+    "loopDuration": 43.959270833333335,
+    "decodedDuration": 44.01927083333333,
+    "startTime": 0.288,
+    "masterGain": 0.7053072452545166,
+    "sourceCount": 9
+  },
+  "seam": {
+    "repeatError": 0,
+    "seamJump": 0.009389836341142654
+  },
+  "checks": [
+    "no autoplay",
+    "nine shared-timestamp sources",
+    "identical loop lengths",
+    "two-cycle offline render",
+    "all-on completion",
+    "all-off",
+    "gain toggles",
+    "pause/resume",
+    "keyboard",
+    "mobile targets/overflow",
+    "reduced motion",
+    "failed-load retry",
+    "no page errors"
+  ]
+}
